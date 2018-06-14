@@ -5,12 +5,14 @@
   },
   "plugins": [
     "react",
-    "jsx-a11y"
+    "jsx-a11y",
+    "jest"
   ],
   "extends": [
     "airbnb",
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
   ],
   "rules": {
     "comma-dangle": [
